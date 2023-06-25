@@ -300,7 +300,7 @@
       event.preventDefault();
       var name = this.querySelector(".name_input").value;
       if (name.trim() !== "") {
-        var link = "https://web.whatsapp.com/send?phone=5512997858309NE&text=Olá, sou " + encodeURIComponent(name) + ". Gostaria de marcar uma avaliação.";
+        var link = "https://api.whatsapp.com/send?phone=5512997858309NE&text=Olá, sou " + encodeURIComponent(name) + ". Gostaria de marcar uma avaliação.";
         window.open(link);
       }
     }
