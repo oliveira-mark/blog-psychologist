@@ -809,7 +809,6 @@ b, strong {
     opacity: 0.2;
   }
   .header_card {
-    background: rgb(255 215 207 / 20%);
     margin: 10px;
   }
   .hero_blob {
@@ -870,6 +869,32 @@ b, strong {
     margin-top: 60px;
     margin-left: 10px;
     margin-right: 10px;
+  }
+  /* ajustes finais */
+  h1, h2, h3, h4, h5, h6 {
+    color: #783a2e;
+    font-weight: 400;
+  }
+  p {
+    font-weight: 500;
+  }
+  .btn_light {
+    font-weight: 500;
+  }
+  .btn_solid {
+    font-weight: 500;
+    padding: 1rem;
+    margin-right: 10px;
+  }
+  .header_form label {
+    font-size: 14px;
+  }
+  .header_text {
+    font-size: 14px;
+  }
+  .header_input {
+    font-weight: 500;
+    font-size: 14px;
   }
 }
 @media (max-width: 425px) {}
